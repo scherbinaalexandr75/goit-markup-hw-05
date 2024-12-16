@@ -251,6 +251,10 @@ img {
   color: #ffffff;
 }
 
+.forma {
+  display: flex;
+}
+
 /* Section 1 */
 
 .section-one {
