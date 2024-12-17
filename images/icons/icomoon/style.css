@@ -9,8 +9,12 @@
 
 /* ==========================================
 Single-colored icons can be modified like so:
-.icon-name {
+.name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
+
+.icon-send {
+  width: 1.2001953125em;
+}
