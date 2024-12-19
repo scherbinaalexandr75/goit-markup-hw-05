@@ -498,23 +498,6 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="modal-container">
-      <div class="modal-window">
-        <button class="modal-btn" type="button">
-          <svg class="btn-close" width="8" height="8">
-            <use href="./images/socialicons.svg#icon-send"></use>
-          </svg>
-        </button>
-        <p class="modal-paragraf">
-          Leave your contacts and we will call you back
-        </p>
-        <form>
-          <div class="form-container">
-            <label>Name</label>
-          </div>
-        </form>
-      </div>
-    </div> -->
     <div class="backmodal">
       <div class="modal-window">
         <button class="modal-btn" type="button">
@@ -526,8 +509,12 @@
           Leave your contacts and we will call you back
         </p>
         <form>
-          <div class="form-container">
-            <label>Name</label>
+          <!-- /* Першим дочірнім елементом форми */ -->
+          <div class="form-container"> 
+            <label for="user-name" class="user-name">Name</label>
+            <div class="inpbtn">
+              <input id="user-name" name="user-name" type="text"/>
+            </div>
           </div>
         </form>
       </div>
