@@ -399,7 +399,7 @@ img {
   position: relative;
 }
 
-.container-name:focus {
+.input-name:focus {
   border-color: #4d5ae5;
 }
 
