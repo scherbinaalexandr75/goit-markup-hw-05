@@ -397,6 +397,8 @@ img {
 
 .container-name {
   position: relative;
+  width: 360px;
+    height: 40px;
 }
 
 .input-name:focus {
